@@ -1,0 +1,42 @@
+# ===============================
+# .GITIGNORE - Proyecto EY_Challenge
+# Raíz: aplica a backend y otros archivos fuera del frontend
+# ===============================
+
+# ========== BACKEND (.NET / C#) ==========
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+*.db
+*.mdf
+*.ldf
+*.sqlite
+*.sqlite3
+[Mm]igrations/**/obj/
+[Mm]igrations/**/bin/
+.publish/
+publish/
+
+# ========== SISTEMA / EDITORES ==========
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ========== MISC ==========
+logs/
+.cache/
+coverage/
+.env
+.env.*
+!.env.example
